@@ -1,0 +1,17 @@
+ Program execution started at Thu Mar 08 10:03:12 2018
+ Command line arguments:
+ C:/Users/jisai/Desktop/test modify/FE_MODEL_DUMMY.fem
+ -optskip
+ -aif
+  
+
+Request for memory resize from        800 to       1734 MB
+Resize ok with new memory.
+
+TIME SPENT IN MODULE :    READ;  CPU=      14.68;  WALL=     14.79
+
+
+START RUNNING MODULE :  PREPR1 ...
+  
+ PROGRAM TERMINATED BY USER INTERVENTION.
+  

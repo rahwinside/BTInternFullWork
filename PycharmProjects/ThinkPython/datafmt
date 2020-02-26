@@ -1,0 +1,100 @@
+set lst1 [split "0,0,0,0,0,0,0,0,0,0" ","]
+set lst2 [split "0,0,0,0,0,0,0,0,0,0" ","]
+set lst3 [split "1.573,1.5815,0,0,0,0,0,0,0,0" ","]
+set lst4 [split "1.573,1.5815,0,0,0,0,0,0,0,0" ","]
+set lst5 [split "55.7,0,55.7,-55.7,0,0,0,0,0,0" ","]
+set lst6 [split "0,-55.7,55.7,-55.7,0,0,0,0,0,0" ","]
+set lst7 [split "0.4697,-0.4697,0.9394,-0.9394,0,0,0,0,0,0" ","]
+set lst8 [split "0.4697,-0.4697,0.9394,-0.9394,0,0,0,0,0,0" ","]
+
+                set name FAT1
+                set j [expr 1+8]
+                set k 5
+                *startnotehistorystate {Created loadcollector $name}
+                *collectorcreate loadcols $name "" 11
+                *createmark loadcols 2 $name
+                *dictionaryload loadcols 2 "C:/Program Files/Altair/2017/templates/feoutput/optistruct/optistruct" "LOADADD"
+                *startnotehistorystate {Attached attributes to loadcol $name}
+                *attributeupdateint loadcols $j 3240 1 2 0 1
+                *attributeupdatedouble loadcols $j 379 1 2 0 1
+                *attributeupdateint loadcols $j 3236 1 0 0 1
+                *createdoublearray 1 0
+                *attributeupdatedoublearray loadcols $j 380 1 2 0 1 1
+                *createarray 1 0
+                *attributeupdateentityidarray loadcols $j 383 1 2 0 loadcols 1
+                *endnotehistorystate {Attached attributes to loadcol $name}
+                *startnotehistorystate {Attached attributes to loadcol $name}
+                *attributeupdateint loadcols $j 3236 1 0 0 $k
+                set load1 [lindex $lst3 [expr 1-1]]
+                set load2 [lindex $lst4 [expr 1-1]]
+                set load3 [lindex $lst5 [expr 1-1]]
+                set load4 [lindex $lst7 [expr 1-1]]
+                set load5 [lindex $lst8 [expr 1-1]]
+                *createdoublearray $k $load1 $load2 $load3 $load4 $load5
+                *attributeupdatedoublearray loadcols $j 380 1 2 0 1 $k
+            *createarray $k 3 4 5 7 8
+            *attributeupdateentityidarray loadcols $j 383 1 2 0 loadcols 1 $k
+            *endnotehistorystate {Attached attributes to loadcol $name}
+            *endnotehistorystate {Created loadcollector $name}
+            #iteration 1 ends
+
+set name FAT2
+set j [expr 2+8]
+set k 5
+*startnotehistorystate {Created loadcollector $name}
+*collectorcreate loadcols $name "" 11
+*createmark loadcols 2 $name
+*dictionaryload loadcols 2 "C:/Program Files/Altair/2017/templates/feoutput/optistruct/optistruct" "LOADADD"
+*startnotehistorystate {Attached attributes to loadcol $name}
+*attributeupdateint loadcols $j 3240 1 2 0 1
+*attributeupdatedouble loadcols $j 379 1 2 0 1
+*attributeupdateint loadcols $j 3236 1 0 0 1
+*createdoublearray 1 0
+*attributeupdatedoublearray loadcols $j 380 1 2 0 1 1
+*createarray 1 0
+*attributeupdateentityidarray loadcols $j 383 1 2 0 loadcols 1
+*endnotehistorystate {Attached attributes to loadcol $name}
+*startnotehistorystate {Attached attributes to loadcol $name}
+*attributeupdateint loadcols $j 3236 1 0 0 $k
+set load1 [lindex $lst3 [expr 2-1]]
+set load2 [lindex $lst4 [expr 2-1]]
+set load3 [lindex $lst6 [expr 2-1]]
+set load4 [lindex $lst7 [expr 2-1]]
+set load5 [lindex $lst8 [expr 2-1]]
+*createdoublearray $k $load1 $load2 $load3 $load4 $load5
+*attributeupdatedoublearray loadcols $j 380 1 2 0 1 $k
+*createarray $k 3 4 6 7 8
+*attributeupdateentityidarray loadcols $j 383 1 2 0 loadcols 1 $k
+*endnotehistorystate {Attached attributes to loadcol $name}
+*endnotehistorystate {Created loadcollector $name}
+#iteration 2 ends
+
+set name FAT3
+set j [expr 3+8]
+set k 4
+*startnotehistorystate {Created loadcollector $name}
+*collectorcreate loadcols $name "" 11
+*createmark loadcols 2 $name
+*dictionaryload loadcols 2 "C:/Program Files/Altair/2017/templates/feoutput/optistruct/optistruct" "LOADADD"
+*startnotehistorystate {Attached attributes to loadcol $name}
+*attributeupdateint loadcols $j 3240 1 2 0 1
+*attributeupdatedouble loadcols $j 379 1 2 0 1
+*attributeupdateint loadcols $j 3236 1 0 0 1
+*createdoublearray 1 0
+*attributeupdatedoublearray loadcols $j 380 1 2 0 1 1
+*createarray 1 0
+*attributeupdateentityidarray loadcols $j 383 1 2 0 loadcols 1
+*endnotehistorystate {Attached attributes to loadcol $name}
+*startnotehistorystate {Attached attributes to loadcol $name}
+*attributeupdateint loadcols $j 3236 1 0 0 $k
+set load1 [lindex $lst5 [expr 3-1]]
+set load2 [lindex $lst6 [expr 3-1]]
+set load3 [lindex $lst7 [expr 3-1]]
+set load4 [lindex $lst8 [expr 3-1]]
+*createdoublearray $k $load1 $load2 $load3 $load4
+*attributeupdatedoublearray loadcols $j 380 1 2 0 1 $k
+*createarray $k 5 6 7 8
+*attributeupdateentityidarray loadcols $j 383 1 2 0 loadcols 1 $k
+*endnotehistorystate {Attached attributes to loadcol $name}
+*endnotehistorystate {Created loadcollector $name}
+#iteration 3 ends

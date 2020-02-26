@@ -1,0 +1,11 @@
+,,,Loadcase combination sheet for Hypermesh,,,,
+,,,,,,,
+,,,,,,,
+Unit Load name(optional),,Fx TBU,Fz TBU,Fx inertia,Fy inertia,Fz inertia,SPC
+Load direction (optional),,Fx ,Fz,Fx ,Fy,Fz,
+Loadcase name,Load IDs,2,3,4,5,6,1
+MIS01,,-10,5,0,0,0,0
+MIS02,,-10,-5,0,0,0,0
+MIS03,,0,0,1.5,0,0,0
+MIS04,,0,0,0,3,0,0
+MIS05,,0,0,0,0,3.5,0

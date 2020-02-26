@@ -1,0 +1,102 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'load.ui'
+#
+# Created by: PyQt5 UI code generator 5.12.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_UX(object):
+    def setupUi(self, UX):
+        UX.setObjectName("UX")
+        UX.resize(581, 226)
+        self.gridLayout = QtWidgets.QGridLayout(UX)
+        self.gridLayout.setObjectName("gridLayout")
+        self.browseTCL = QtWidgets.QPushButton(UX)
+        self.browseTCL.setFocusPolicy(QtCore.Qt.NoFocus)
+        self.browseTCL.setObjectName("browseTCL")
+        self.gridLayout.addWidget(self.browseTCL, 1, 2, 1, 1)
+        self.errorLabel = QtWidgets.QLabel(UX)
+        sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Preferred)
+        sizePolicy.setHorizontalStretch(0)
+        sizePolicy.setVerticalStretch(30)
+        sizePolicy.setHeightForWidth(self.errorLabel.sizePolicy().hasHeightForWidth())
+        self.errorLabel.setSizePolicy(sizePolicy)
+        self.errorLabel.setMinimumSize(QtCore.QSize(50, 20))
+        self.errorLabel.setMaximumSize(QtCore.QSize(16777215, 100))
+        self.errorLabel.setText("")
+        self.errorLabel.setObjectName("errorLabel")
+        self.gridLayout.addWidget(self.errorLabel, 7, 0, 1, 3)
+        self.nLoadCase = QtWidgets.QLineEdit(UX)
+        self.nLoadCase.setFocusPolicy(QtCore.Qt.TabFocus)
+        self.nLoadCase.setObjectName("nLoadCase")
+        self.gridLayout.addWidget(self.nLoadCase, 2, 1, 1, 1)
+        self.label_4 = QtWidgets.QLabel(UX)
+        self.label_4.setObjectName("label_4")
+        self.gridLayout.addWidget(self.label_4, 3, 0, 1, 1)
+        self.label_5 = QtWidgets.QLabel(UX)
+        self.label_5.setObjectName("label_5")
+        self.gridLayout.addWidget(self.label_5, 4, 0, 1, 1)
+        self.excel_file = QtWidgets.QLineEdit(UX)
+        self.excel_file.setFocusPolicy(QtCore.Qt.TabFocus)
+        self.excel_file.setObjectName("excel_file")
+        self.gridLayout.addWidget(self.excel_file, 0, 1, 1, 1)
+        self.tcl_file = QtWidgets.QLineEdit(UX)
+        self.tcl_file.setFocusPolicy(QtCore.Qt.TabFocus)
+        self.tcl_file.setObjectName("tcl_file")
+        self.gridLayout.addWidget(self.tcl_file, 1, 1, 1, 1)
+        self.generate = QtWidgets.QPushButton(UX)
+        self.generate.setFocusPolicy(QtCore.Qt.TabFocus)
+        self.generate.setObjectName("generate")
+        self.gridLayout.addWidget(self.generate, 6, 1, 1, 1)
+        self.pretSPC = QtWidgets.QLineEdit(UX)
+        self.pretSPC.setFocusPolicy(QtCore.Qt.TabFocus)
+        self.pretSPC.setText("")
+        self.pretSPC.setObjectName("pretSPC")
+        self.gridLayout.addWidget(self.pretSPC, 4, 1, 1, 1)
+        self.browseExcel = QtWidgets.QPushButton(UX)
+        self.browseExcel.setFocusPolicy(QtCore.Qt.NoFocus)
+        self.browseExcel.setObjectName("browseExcel")
+        self.gridLayout.addWidget(self.browseExcel, 0, 2, 1, 1)
+        self.label_3 = QtWidgets.QLabel(UX)
+        self.label_3.setObjectName("label_3")
+        self.gridLayout.addWidget(self.label_3, 2, 0, 1, 1)
+        self.nSPC = QtWidgets.QLineEdit(UX)
+        self.nSPC.setFocusPolicy(QtCore.Qt.TabFocus)
+        self.nSPC.setObjectName("nSPC")
+        self.gridLayout.addWidget(self.nSPC, 3, 1, 1, 1)
+        self.label = QtWidgets.QLabel(UX)
+        self.label.setObjectName("label")
+        self.gridLayout.addWidget(self.label, 0, 0, 1, 1)
+        self.label_2 = QtWidgets.QLabel(UX)
+        self.label_2.setObjectName("label_2")
+        self.gridLayout.addWidget(self.label_2, 1, 0, 1, 1)
+        spacerItem = QtWidgets.QSpacerItem(20, 20, QtWidgets.QSizePolicy.Minimum, QtWidgets.QSizePolicy.Fixed)
+        self.gridLayout.addItem(spacerItem, 5, 1, 1, 1)
+
+        self.retranslateUi(UX)
+        QtCore.QMetaObject.connectSlotsByName(UX)
+        UX.setTabOrder(self.excel_file, self.tcl_file)
+        UX.setTabOrder(self.tcl_file, self.nLoadCase)
+        UX.setTabOrder(self.nLoadCase, self.nSPC)
+        UX.setTabOrder(self.nSPC, self.pretSPC)
+        UX.setTabOrder(self.pretSPC, self.generate)
+        UX.setTabOrder(self.generate, self.browseExcel)
+        UX.setTabOrder(self.browseExcel, self.browseTCL)
+
+    def retranslateUi(self, UX):
+        _translate = QtCore.QCoreApplication.translate
+        UX.setWindowTitle(_translate("UX", "Loadcase and Loadstep Generator for Hypermesh"))
+        self.browseTCL.setText(_translate("UX", "Browse"))
+        self.label_4.setText(_translate("UX", "SPC count:"))
+        self.label_5.setText(_translate("UX", "SPC ID for Pretension:"))
+        self.generate.setText(_translate("UX", "Generate"))
+        self.browseExcel.setText(_translate("UX", "Browse"))
+        self.label_3.setText(_translate("UX", "Loadcase count:"))
+        self.label.setText(_translate("UX", "Path to Excel file:"))
+        self.label_2.setText(_translate("UX", "Path to save TCL file:"))
+
+

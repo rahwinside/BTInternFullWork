@@ -1,0 +1,56 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                         OptiStruct 2017.2                          **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **            Windows 7  SP1 (Build 7601)  BTIS1000063083             **
+ **          4 CPU:  Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz           **
+ **                     1369 MB RAM,  8006 MB swap                     **
+ **                                                                    **
+ ** Build tag: 0872785_9433172_Ce64RBW8UH14M:131848-2  4000000004000   **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2017                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2017\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ 3 PARAM(s) were set:
+    CHECKEL,NO
+    POST,0
+    PRGPST,NO
+  
+ *** WARNING # 1438
+ End of input file without "ENDDATA" card.
+  
+  
+ 
+ *** INTERNAL PROGRAMMING ERROR ***
+   in file "numnod.F", at location # 38.
+  
+       ioerr(1) =          0
+ ****  ABORTING RUN DUE TO AN INTERNAL ERROR  ****
+  
+  
+************************************************************************
+ OptiStruct error termination report printed to file
+ "FE_model_dummy.stat".
+  
+************************************************************************
+ There were 1 WARNING(s) reported during the run.
+  
+************************************************************************

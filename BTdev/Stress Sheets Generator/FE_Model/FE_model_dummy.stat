@@ -1,0 +1,192 @@
+ Program execution started at Fri Feb 09 15:53:00 2018
+ Command line arguments:
+ C:\Users\dhruvin jasoliya\Desktop\Stress Sheets Generator\FE_Model\FE_model_dummy.fem
+ -optskip
+ -aif
+  
+
+Request for memory resize from        100 to        148 MB
+Resize ok with new memory.
+
+TIME SPENT IN MODULE :    READ;  CPU=       3.06;  WALL=      3.20
+
+
+START RUNNING MODULE :  PREPR1 ...
+
+TIME SPENT IN MODULE :  PREPR1;  CPU=       0.27;  WALL=      0.28
+
+
+START RUNNING MODULE :  DESIGN ...
+
+TIME SPENT IN MODULE :  DESIGN;  CPU=       0.00;  WALL=      0.00
+
+
+START RUNNING MODULE :  PREPRO ...
+
+Request for memory resize from        148 to        206 MB
+Resize ok with new memory.
+
+Request for memory resize from        206 to        211 MB
+Resize ok with new memory.
+
+   Start running section :  PRPSL4 ...
+
+   Time spent in section :  PRPSL4;  CPU=       7.31;  WALL=      7.40
+
+
+Request for memory resize from        211 to        411 MB
+Resize ok with new memory.
+
+TIME SPENT IN MODULE :  PREPRO;  CPU=      11.67;  WALL=     13.79
+
+
+ITERATION   0
+
+START RUNNING MODULE : CHECKEL ...
+
+TIME SPENT IN MODULE : CHECKEL;  CPU=       0.52;  WALL=      0.52
+
+
+START RUNNING MODULE :  SOLVER ...
+
+   Start running section :  PRASMB ...
+
+   Time spent in section :  PRASMB;  CPU=       0.00;  WALL=      0.02
+
+
+   Start running section :  SPASMB ...
+
+   Time spent in section :  SPASMB;  CPU=       2.33;  WALL=      3.68
+
+
+   Solving subcase          1
+
+   Solving subcase          1
+
+   Solving subcase          1
+
+   Start running section :  PREFCT ...
+
+   Time spent in section :  PREFCT;  CPU=       0.05;  WALL=      0.12
+
+
+   Start running section :  INPTVM ...
+
+   Time spent in section :  INPTVM;  CPU=       0.88;  WALL=      2.05
+
+
+   Start running section :  FCTMTX ...
+
+   Time spent in section :  FCTMTX;  CPU=      33.44;  WALL=     47.32
+
+
+   Start running section :  SOLRHS ...
+
+   Time spent in section :  SOLRHS;  CPU=       1.20;  WALL=      1.29
+
+
+   Start running section :  STRENR ...
+
+   Time spent in section :  STRENR;  CPU=       0.70;  WALL=      8.26
+
+
+   Start running section :  KINENR ...
+
+   Time spent in section :  KINENR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  OBJFUN ...
+
+   Time spent in section :  OBJFUN;  CPU=       0.00;  WALL=      0.02
+
+
+   Start running section :  RESFRC ...
+
+   Time spent in section :  RESFRC;  CPU=       0.48;  WALL=      0.90
+
+
+TIME SPENT IN MODULE :  SOLVER;  CPU=      39.19;  WALL=     64.37
+
+
+START RUNNING MODULE :  STRESS ...
+
+TIME SPENT IN MODULE :  STRESS;  CPU=       2.80;  WALL=      5.03
+
+
+START RUNNING MODULE :CONVERGE ...
+
+TIME SPENT IN MODULE :CONVERGE;  CPU=       0.00;  WALL=      0.03
+
+
+START RUNNING MODULE :   PRINT ...
+
+TIME SPENT IN MODULE :   PRINT;  CPU=       0.00;  WALL=      0.07
+
+
+START RUNNING MODULE : RESULTS ...
+
+   Start running section :     H3D ...
+
+   Time spent in section :     H3D;  CPU=       6.44;  WALL=      8.80
+
+
+   Start running section :     PCH ...
+
+   Time spent in section :     PCH;  CPU=       0.17;  WALL=      0.57
+
+
+   Start running section :    MISC ...
+
+   Time spent in section :    MISC;  CPU=       0.05;  WALL=      0.15
+
+  
+ ANALYSIS COMPLETED.
+  
+
+TIME SPENT IN MODULE : RESULTS;  CPU=       6.66;  WALL=      9.98
+
+
+START RUNNING MODULE :FINISHUP ...
+
+TIME SPENT IN MODULE :FINISHUP;  CPU=       0.02;  WALL=      0.28
+
+ Detailed disk usage: 
+	High usage overall   : 1781.8 MiB,
+	Solver scratch       : 1566.0 MiB,
+	Internal database    :  320.8 MiB,
+	Out-of-core assembly :    0.0 MiB,
+	Temporary files      :   16.0 MiB.
+
+SOLUTION COMPLETED, THE FOLLOWING IS CPU/WALL CLOCK SUMMARY (IN SECONDS):
+
+TOTAL TIME SPENT IN MODULE :READ    ;  CPU=       3.06;  WALL=      3.20
+TOTAL TIME SPENT IN MODULE :PREPR1  ;  CPU=       0.27;  WALL=      0.28
+TOTAL TIME SPENT IN MODULE :DESIGN  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPSL4  ;  CPU=       7.31;  WALL=      7.40
+TOTAL TIME SPENT IN MODULE :PREPRO  ;  CPU=      11.67;  WALL=     13.79
+TOTAL TIME SPENT IN MODULE :CHECKEL ;  CPU=       0.52;  WALL=      0.52
+   Total time spent in section :PRASMB  ;  CPU=       0.00;  WALL=      0.02
+   Total time spent in section :SPASMB  ;  CPU=       2.33;  WALL=      3.68
+   Total time spent in section :PREFCT  ;  CPU=       0.05;  WALL=      0.12
+   Total time spent in section :INPTVM  ;  CPU=       0.88;  WALL=      2.05
+   Total time spent in section :FCTMTX  ;  CPU=      33.44;  WALL=     47.32
+   Total time spent in section :SOLRHS  ;  CPU=       1.20;  WALL=      1.29
+   Total time spent in section :STRENR  ;  CPU=       0.70;  WALL=      8.26
+   Total time spent in section :KINENR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :OBJFUN  ;  CPU=       0.00;  WALL=      0.02
+   Total time spent in section :RESFRC  ;  CPU=       0.48;  WALL=      0.90
+TOTAL TIME SPENT IN MODULE :SOLVER  ;  CPU=      39.19;  WALL=     64.37
+TOTAL TIME SPENT IN MODULE :STRESS  ;  CPU=       2.80;  WALL=      5.03
+TOTAL TIME SPENT IN MODULE :CONVERGE;  CPU=       0.00;  WALL=      0.03
+TOTAL TIME SPENT IN MODULE :PRINT   ;  CPU=       0.00;  WALL=      0.07
+   Total time spent in section :H3D     ;  CPU=       6.44;  WALL=      8.80
+   Total time spent in section :PCH     ;  CPU=       0.17;  WALL=      0.57
+   Total time spent in section :MISC    ;  CPU=       0.05;  WALL=      0.15
+TOTAL TIME SPENT IN MODULE :RESULTS ;  CPU=       6.66;  WALL=      9.98
+TOTAL TIME SPENT IN MODULE :FINISHUP;  CPU=       0.02;  WALL=      0.28
+
+CUMULATIVE RUN TIME:     CPU=       64.17;     WALL=       97.56
+
+
+TIME SPENT IN MODULE :   CLOSE;  CPU=       0.00;  WALL=      0.01
+

@@ -1,0 +1,4 @@
+*Group "coord 411 Set" "node" "255   0   0"
+*Attributes point 3
+*Pool "Node"
+1452923 1452969 

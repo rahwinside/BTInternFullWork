@@ -1,0 +1,1376 @@
+(['C:\\Users\\dhruvin jasoliya\\Desktop\\Stress Sheets Generator\\code.py'],
+ ['C:\\Users\\dhruvin jasoliya\\Desktop\\Stress Sheets Generator',
+  'C:\\Users\\dhruvin jasoliya\\Desktop\\Stress Sheets Generator'],
+ ['codecs'],
+ [],
+ [],
+ [],
+ False,
+ False,
+ '3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:57:36) [MSC v.1900 64 bit (AMD64)]',
+ [('code',
+   'C:\\Users\\dhruvin jasoliya\\Desktop\\Stress Sheets Generator\\code.py',
+   'PYSOURCE')],
+ [('ntpath',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\ntpath.py',
+   'PYMODULE'),
+  ('_strptime',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\_strptime.py',
+   'PYMODULE'),
+  ('datetime',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\datetime.py',
+   'PYMODULE'),
+  ('stringprep',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\fnmatch.py',
+   'PYMODULE'),
+  ('struct',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\struct.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('__future__',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\__future__.py',
+   'PYMODULE'),
+  ('difflib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\difflib.py',
+   'PYMODULE'),
+  ('ast',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\ast.py',
+   'PYMODULE'),
+  ('inspect',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\inspect.py',
+   'PYMODULE'),
+  ('cmd',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\cmd.py',
+   'PYMODULE'),
+  ('bdb',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\bdb.py',
+   'PYMODULE'),
+  ('opcode',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\opcode.py',
+   'PYMODULE'),
+  ('dis',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\dis.py',
+   'PYMODULE'),
+  ('codeop',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\codeop.py',
+   'PYMODULE'),
+  ('code',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\code.py',
+   'PYMODULE'),
+  ('glob',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\glob.py',
+   'PYMODULE'),
+  ('shlex',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\shlex.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('pkgutil',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\pkgutil.py',
+   'PYMODULE'),
+  ('xml',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('getpass',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\getpass.py',
+   'PYMODULE'),
+  ('nturl2path',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\nturl2path.py',
+   'PYMODULE'),
+  ('ftplib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\ftplib.py',
+   'PYMODULE'),
+  ('netrc',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\netrc.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('plistlib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\plistlib.py',
+   'PYMODULE'),
+  ('platform',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\platform.py',
+   'PYMODULE'),
+  ('token',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\tokenize.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('tempfile',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\tempfile.py',
+   'PYMODULE'),
+  ('tty',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\tty.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('html.entities',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\html\\entities.py',
+   'PYMODULE'),
+  ('html',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\ipaddress.py',
+   'PYMODULE'),
+  ('ssl',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\ssl.py',
+   'PYMODULE'),
+  ('http.client',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\http\\client.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\mimetypes.py',
+   'PYMODULE'),
+  ('socketserver',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\socketserver.py',
+   'PYMODULE'),
+  ('http',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.server',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\http\\server.py',
+   'PYMODULE'),
+  ('optparse',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\optparse.py',
+   'PYMODULE'),
+  ('uu',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\uu.py',
+   'PYMODULE'),
+  ('quopri',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\quopri.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.parser',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('calendar',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\calendar.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email.utils',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\utils.py',
+   'PYMODULE'),
+  ('email.errors',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.header',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\header.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.charset',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\charset.py',
+   'PYMODULE'),
+  ('base64',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\base64.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('hashlib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\hashlib.py',
+   'PYMODULE'),
+  ('bisect',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\bisect.py',
+   'PYMODULE'),
+  ('random',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\random.py',
+   'PYMODULE'),
+  ('email.generator',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('urllib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.policy',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.message',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\email\\message.py',
+   'PYMODULE'),
+  ('bz2',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\bz2.py',
+   'PYMODULE'),
+  ('lzma',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\lzma.py',
+   'PYMODULE'),
+  ('_compression',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\_compression.py',
+   'PYMODULE'),
+  ('gzip',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\gzip.py',
+   'PYMODULE'),
+  ('tarfile',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\tarfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\py_compile.py',
+   'PYMODULE'),
+  ('zipfile',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\zipfile.py',
+   'PYMODULE'),
+  ('shutil',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\shutil.py',
+   'PYMODULE'),
+  ('socket',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\socket.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\webbrowser.py',
+   'PYMODULE'),
+  ('pydoc',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\pydoc.py',
+   'PYMODULE'),
+  ('getopt',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\getopt.py',
+   'PYMODULE'),
+  ('pdb',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\pdb.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('string',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\string.py',
+   'PYMODULE'),
+  ('logging',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('doctest',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\doctest.py',
+   'PYMODULE'),
+  ('stat',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\stat.py',
+   'PYMODULE'),
+  ('genericpath',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\genericpath.py',
+   'PYMODULE'),
+  ('posixpath',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\posixpath.py',
+   'PYMODULE'),
+  ('enum',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\enum.py',
+   'PYMODULE'),
+  ('signal',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\signal.py',
+   'PYMODULE'),
+  ('contextlib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\contextlib.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\_threading_local.py',
+   'PYMODULE'),
+  ('threading',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\threading.py',
+   'PYMODULE'),
+  ('selectors',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\selectors.py',
+   'PYMODULE'),
+  ('_dummy_thread',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\_dummy_thread.py',
+   'PYMODULE'),
+  ('dummy_threading',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\dummy_threading.py',
+   'PYMODULE'),
+  ('subprocess',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\subprocess.py',
+   'PYMODULE'),
+  ('os',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\os.py',
+   'PYMODULE'),
+  ('textwrap',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\textwrap.py',
+   'PYMODULE'),
+  ('gettext',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\gettext.py',
+   'PYMODULE'),
+  ('argparse',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\argparse.py',
+   'PYMODULE'),
+  ('pprint',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\pprint.py',
+   'PYMODULE'),
+  ('pickle',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\pickle.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('warnings',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\warnings.py',
+   'PYMODULE'),
+  ('copy',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\copy.py',
+   'PYMODULE'),
+  ('wx',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\__init__.py',
+   'PYMODULE'),
+  ('wx.core',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\core.py',
+   'PYMODULE'),
+  ('wx.lib.colourutils',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\lib\\colourutils.py',
+   'PYMODULE'),
+  ('wx.lib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\lib\\__init__.py',
+   'PYMODULE'),
+  ('six',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\six.py',
+   'PYMODULE'),
+  ('wx.__version__',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\__version__.py',
+   'PYMODULE'),
+  ('openpyxl',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.reader.excel',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\reader\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.reader',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\reader\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.reader.worksheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\reader\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.excel',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\descriptors\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.utils.cell',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.serialisable',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\descriptors\\serialisable.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.namespace',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\descriptors\\namespace.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.sequence',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\descriptors\\sequence.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.base',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\descriptors\\base.py',
+   'PYMODULE'),
+  ('openpyxl.utils.indexed_list',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\indexed_list.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\descriptors\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.utils.datetime',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\datetime.py',
+   'PYMODULE'),
+  ('jdcal',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\jdcal.py',
+   'PYMODULE'),
+  ('openpyxl.utils',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.utils.formulas',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\formulas.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.properties',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.styles.colors',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.formula.translate',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\formula\\translate.py',
+   'PYMODULE'),
+  ('openpyxl.formula',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\formula\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.formula.tokenizer',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\formula\\tokenizer.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.formatting',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\formatting\\formatting.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.cell_range',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\cell_range.py',
+   'PYMODULE'),
+  ('openpyxl.compat.strings',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\compat\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.formatting.rule',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\formatting\\rule.py',
+   'PYMODULE'),
+  ('openpyxl.styles.differential',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\differential.py',
+   'PYMODULE'),
+  ('openpyxl.styles.numbers',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\numbers.py',
+   'PYMODULE'),
+  ('openpyxl.formatting',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\formatting\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.styles',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.styles.named_styles',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\named_styles.py',
+   'PYMODULE'),
+  ('openpyxl.styles.cell_style',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\cell_style.py',
+   'PYMODULE'),
+  ('openpyxl.styles.protection',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fonts',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\fonts.py',
+   'PYMODULE'),
+  ('openpyxl.descriptors.nested',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\descriptors\\nested.py',
+   'PYMODULE'),
+  ('openpyxl.styles.fills',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\fills.py',
+   'PYMODULE'),
+  ('openpyxl.styles.borders',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\borders.py',
+   'PYMODULE'),
+  ('openpyxl.styles.alignment',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\alignment.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.datavalidation',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\datavalidation.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.views',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.protection',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.utils.protection',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.pagebreak',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\pagebreak.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.page',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\page.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.merge',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\merge.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.hyperlink',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\hyperlink.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.header_footer',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\header_footer.py',
+   'PYMODULE'),
+  ('openpyxl.utils.escape',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\escape.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.dimensions',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\dimensions.py',
+   'PYMODULE'),
+  ('openpyxl.utils.bound_dictionary',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\bound_dictionary.py',
+   'PYMODULE'),
+  ('openpyxl.styles.styleable',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\styleable.py',
+   'PYMODULE'),
+  ('openpyxl.styles.builtins',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\builtins.py',
+   'PYMODULE'),
+  ('openpyxl.styles.proxy',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\proxy.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.worksheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.writer.worksheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\writer\\worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.writer',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\writer\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.writer.etree_worksheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\writer\\etree_worksheet.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.related',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\related.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.defined_name',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\defined_name.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.child',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\child.py',
+   'PYMODULE'),
+  ('openpyxl.utils.units',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\units.py',
+   'PYMODULE'),
+  ('openpyxl.cell.text',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\cell\\text.py',
+   'PYMODULE'),
+  ('openpyxl.cell.read_only',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\cell\\read_only.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.filters',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\filters.py',
+   'PYMODULE'),
+  ('openpyxl.cell',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\cell\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.cell.cell',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\cell\\cell.py',
+   'PYMODULE'),
+  ('openpyxl.xml.functions',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\xml\\functions.py',
+   'PYMODULE'),
+  ('et_xmlfile.xmlfile',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\et_xmlfile\\xmlfile.py',
+   'PYMODULE'),
+  ('et_xmlfile',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\et_xmlfile\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.ElementTree',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\etree\\ElementTree.py',
+   'PYMODULE'),
+  ('xml.etree.ElementInclude',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\etree\\ElementInclude.py',
+   'PYMODULE'),
+  ('xml.etree.ElementPath',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\etree\\ElementPath.py',
+   'PYMODULE'),
+  ('xml.etree',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('xml.etree.cElementTree',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\xml\\etree\\cElementTree.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reader',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\reader.py',
+   'PYMODULE'),
+  ('openpyxl.chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chart.reference',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\reference.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series_factory',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\series_factory.py',
+   'PYMODULE'),
+  ('openpyxl.chart.series',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\series.py',
+   'PYMODULE'),
+  ('openpyxl.chart.trendline',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\trendline.py',
+   'PYMODULE'),
+  ('openpyxl.chart.layout',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\layout.py',
+   'PYMODULE'),
+  ('openpyxl.chart.text',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.text',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\text.py',
+   'PYMODULE'),
+  ('openpyxl.drawing',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.drawing',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.shapes',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\shapes.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.line',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\line.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.fill',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\fill.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.effect',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\effect.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.colors',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\colors.py',
+   'PYMODULE'),
+  ('openpyxl.chart.marker',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\marker.py',
+   'PYMODULE'),
+  ('openpyxl.chart.picture',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\picture.py',
+   'PYMODULE'),
+  ('openpyxl.chart.label',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\label.py',
+   'PYMODULE'),
+  ('openpyxl.chart.error_bar',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\error_bar.py',
+   'PYMODULE'),
+  ('openpyxl.chart.shapes',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\shapes.py',
+   'PYMODULE'),
+  ('openpyxl.chart.data_source',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\data_source.py',
+   'PYMODULE'),
+  ('openpyxl.chart.surface_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\surface_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.axis',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\axis.py',
+   'PYMODULE'),
+  ('openpyxl.chart.title',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\title.py',
+   'PYMODULE'),
+  ('openpyxl.chart.descriptors',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\descriptors.py',
+   'PYMODULE'),
+  ('openpyxl.chart._3d',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\_3d.py',
+   'PYMODULE'),
+  ('openpyxl.chart._chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.legend',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\legend.py',
+   'PYMODULE'),
+  ('openpyxl.chart.stock_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\stock_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.updown_bars',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\updown_bars.py',
+   'PYMODULE'),
+  ('openpyxl.chart.scatter_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\scatter_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.radar_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\radar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.pie_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\pie_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.line_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\line_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bubble_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\bubble_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.bar_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\bar_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.area_chart',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\area_chart.py',
+   'PYMODULE'),
+  ('openpyxl.chart.chartspace',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\chartspace.py',
+   'PYMODULE'),
+  ('openpyxl.chart.print_settings',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\print_settings.py',
+   'PYMODULE'),
+  ('openpyxl.chart.plotarea',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chart\\plotarea.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.spreadsheet_drawing',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\spreadsheet_drawing.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.graphic',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\graphic.py',
+   'PYMODULE'),
+  ('openpyxl.drawing.image',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\drawing\\image.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.table',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\table.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.read_only',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\read_only.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.relationship',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\packaging\\relationship.py',
+   'PYMODULE'),
+  ('openpyxl.packaging',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.workbook',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\packaging\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.record',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\pivot\\record.py',
+   'PYMODULE'),
+  ('openpyxl.pivot',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\pivot\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.fields',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\pivot\\fields.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.cache',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\pivot\\cache.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link.external',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\external_link\\external.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_link',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\external_link\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.workbook',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.views',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\views.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.properties',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.protection',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chartsheet\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.chartsheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chartsheet\\chartsheet.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.publish',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chartsheet\\publish.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.custom',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chartsheet\\custom.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.views',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chartsheet\\views.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.protection',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chartsheet\\protection.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.properties',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chartsheet\\properties.py',
+   'PYMODULE'),
+  ('openpyxl.chartsheet.relation',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\chartsheet\\relation.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.drawing',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\drawing.py',
+   'PYMODULE'),
+  ('openpyxl.styles.table',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\table.py',
+   'PYMODULE'),
+  ('openpyxl.writer.excel',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\writer\\excel.py',
+   'PYMODULE'),
+  ('openpyxl.writer.theme',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\writer\\theme.py',
+   'PYMODULE'),
+  ('openpyxl.writer.workbook',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\writer\\workbook.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.external_reference',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\external_reference.py',
+   'PYMODULE'),
+  ('openpyxl.writer.strings',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\writer\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.extended',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\packaging\\extended.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.copier',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\copier.py',
+   'PYMODULE'),
+  ('openpyxl.comments',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\comments\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comments',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\comments\\comments.py',
+   'PYMODULE'),
+  ('openpyxl.worksheet.write_only',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\worksheet\\write_only.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.parser',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\parser.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.web',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\web.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.smart_tags',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\smart_tags.py',
+   'PYMODULE'),
+  ('openpyxl.workbook.function_group',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\function_group.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.manifest',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\packaging\\manifest.py',
+   'PYMODULE'),
+  ('openpyxl.packaging.core',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\packaging\\core.py',
+   'PYMODULE'),
+  ('openpyxl.styles.stylesheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\styles\\stylesheet.py',
+   'PYMODULE'),
+  ('openpyxl.reader.strings',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\reader\\strings.py',
+   'PYMODULE'),
+  ('openpyxl.comments.comment_sheet',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\comments\\comment_sheet.py',
+   'PYMODULE'),
+  ('openpyxl.comments.shape_writer',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\comments\\shape_writer.py',
+   'PYMODULE'),
+  ('openpyxl.comments.author',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\comments\\author.py',
+   'PYMODULE'),
+  ('openpyxl.xml.constants',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\xml\\constants.py',
+   'PYMODULE'),
+  ('openpyxl.utils.exceptions',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\utils\\exceptions.py',
+   'PYMODULE'),
+  ('openpyxl.pivot.table',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\pivot\\table.py',
+   'PYMODULE'),
+  ('openpyxl.compat',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\compat\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.workbook',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\workbook\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.xml',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\xml\\__init__.py',
+   'PYMODULE'),
+  ('openpyxl.compat.numbers',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\compat\\numbers.py',
+   'PYMODULE'),
+  ('decimal',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('numbers',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\numbers.py',
+   'PYMODULE'),
+  ('json',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\json\\scanner.py',
+   'PYMODULE')],
+ [('python36.dll',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\python36.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('_ssl',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('unicodedata',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('wx.siplib',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\siplib.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('wx._core',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\_core.cp36-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('_decimal',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('wxbase30u_net_vc140_x64.dll',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\wxbase30u_net_vc140_x64.dll',
+   'BINARY'),
+  ('MSVCP140.dll',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\MSVCP140.dll',
+   'BINARY'),
+  ('wxbase30u_vc140_x64.dll',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\wxbase30u_vc140_x64.dll',
+   'BINARY'),
+  ('wxmsw30u_core_vc140_x64.dll',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\wx\\wxmsw30u_core_vc140_x64.dll',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   'C:\\Users\\dhruvin jasoliya\\Desktop\\Stress Sheets '
+   'Generator\\build\\code\\base_library.zip',
+   'DATA'),
+  ('openpyxl\\.constants.json',
+   'c:\\users\\dhruvin '
+   'jasoliya\\appdata\\local\\programs\\python\\python36\\lib\\site-packages\\openpyxl\\.constants.json',
+   'DATA')],
+ [])

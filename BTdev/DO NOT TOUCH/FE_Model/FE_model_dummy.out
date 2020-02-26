@@ -1,0 +1,245 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                         OptiStruct 2017.2                          **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **            Windows 7  SP1 (Build 7601)  BTIS1000063083             **
+ **          4 CPU:  Intel(R) Core(TM) i5-4590 CPU @ 3.30GHz           **
+ **                     1348 MB RAM,  8006 MB swap                     **
+ **                                                                    **
+ ** Build tag: 0872785_9433172_Ce64RBW8UH14M:131848-2  4000000014000   **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2017                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Program Files\Altair\2017\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ 3 PARAM(s) were set:
+    CHECKEL,NO
+    POST,0
+    PRGPST,NO
+  
+  
+  
+ *** INFORMATION # 815
+ The total number of rigid elements, whose rotational dependent d.o.f.
+ are removed because there is no need to constrain those d.o.f., is 4.
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/jisai/Desktop/FE_Model/FE_model_dummy.fem
+  Output files prefix          : 
+     C:/Users/jisai/Desktop/FE_Model/FE_model_dummy
+  Model read from files:
+     C:/Users/jisai/Desktop/FE_Model/FE_model_dummy.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :    114882
+  Total # of Elements                  :     65293
+  Total # of Rigid Elements            :         8
+  Total # of Rigid Element Constraints :       861
+  Total # of Degrees of Freedom        :    334104
+  (Structural)
+  Total # of Non-zero Stiffness Terms  :  12499032
+
+ 
+  Element Type Information
+  ------------------------
+
+   CTETRA   Elements   :    65293
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :         3
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PSOLID Cards      :         1
+   MAT1   Cards      :         1
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  --------
+   Subcase ID    SPC ID   FORCE ID
+   ----------   --------  --------
+        1            4            1
+        2            4            2
+        3            4            3
+   ----------   --------  --------
+
+   Run Type                        :   Analysis Only
+   Run at location                 : C:/Users/jisai/Desktop/FE_Model/
+   Scratch file directory          : C:/Users/jisai/Desktop/FE_Model/
+                                     Free space:   340.490 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Current Memory (RAM)                                    :    1839 MB
+ Estimated Minimum Memory (RAM) for Out of Core Solution :     392 MB
+ Recommended Memory (RAM) for Out of Core Solution       :     437 MB
+ Recommended Memory (RAM) for In-Core Solution           :    1839 MB
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :     363 MB
+ Estimated Scratch Disk Space for In-Core Solution       :     392 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :    2361 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ (Scratch disk space usage for starting iteration = 311 MB)
+
+Subcase:       1
+--------------------------------------------------------------------------
+ Label     x-force    y-force    z-force   x-moment   y-moment   z-moment 
+--------------------------------------------------------------------------
+Sum-App. -1.000E+03  0.000E+00  0.000E+00  0.000E+00 -3.720E+05  7.470E+05
+Sum-SPCF  1.000E+03  5.033E-08 -4.765E-08 -5.973E-05  3.720E+05 -7.470E+05
+--------------------------------------------------------------------------
+
+Subcase:       2
+--------------------------------------------------------------------------
+ Label     x-force    y-force    z-force   x-moment   y-moment   z-moment 
+--------------------------------------------------------------------------
+Sum-App.  0.000E+00 -1.000E+03  0.000E+00  3.720E+05  0.000E+00 -8.860E+05
+Sum-SPCF  8.107E-08  1.000E+03 -6.389E-08 -3.720E+05  7.930E-05  8.860E+05
+--------------------------------------------------------------------------
+
+Subcase:       3
+--------------------------------------------------------------------------
+ Label     x-force    y-force    z-force   x-moment   y-moment   z-moment 
+--------------------------------------------------------------------------
+Sum-App.  0.000E+00  0.000E+00  1.000E+03  7.470E+05 -8.860E+05  0.000E+00
+Sum-SPCF -3.029E-09 -1.116E-08 -1.000E+03 -7.470E+05  8.860E+05 -9.085E-06
+--------------------------------------------------------------------------
+Notes: 1. All applied and SPC forces are transferred to
+          the origin of the basic coordinate system,
+          so that the applied and SPC loads can match.
+       2. If spring elements and/or MPCs exist in the model,
+          total applied loads may not match total SPC loads.
+       3. If axisymmetric elements are present in the model,
+          the total x-force and y-force and all the total
+          moments are set to zero, according to principles
+          of axisymmetric analysis.
+       4. If periodic boundary conditions exist in the model,
+          total applied loads may not match total SPC loads.
+(Running in-core solution)
+
+Volume                              = 8.73552E+006   Mass     = 6.20222E-002
+
+ Subcase   Compliance     Epsilon
+       1  5.287118E+00 -2.804747E-12
+       2  3.604507E+01  1.650735E-12
+       3  2.244025E+01 -1.897925E-12
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      1839 MB
+ MAXIMUM DISK SPACE USED                                   492 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Wed Feb 14 11:33:45 2018    
+ EXECUTION COMPLETED                       Wed Feb 14 11:35:01 2018    
+ ELAPSED TIME                                         00:01:15
+ CPU TIME                                             00:00:32
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx

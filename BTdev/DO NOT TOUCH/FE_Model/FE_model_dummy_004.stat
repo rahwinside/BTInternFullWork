@@ -1,0 +1,306 @@
+ Program execution started at Tue Feb 13 10:55:50 2018
+ Command line arguments:
+ C:/Users/jisai/Desktop/FE_Model/FE_model_dummy.fem
+ -optskip
+ -aif
+  
+
+Request for memory resize from        100 to        148 MB
+Resize ok with new memory.
+
+TIME SPENT IN MODULE :    READ;  CPU=       1.50;  WALL=      1.51
+
+
+START RUNNING MODULE :  PREPR1 ...
+
+TIME SPENT IN MODULE :  PREPR1;  CPU=       0.14;  WALL=      0.14
+
+
+START RUNNING MODULE :  DESIGN ...
+
+TIME SPENT IN MODULE :  DESIGN;  CPU=       0.00;  WALL=      0.00
+
+
+START RUNNING MODULE :  PREPRO ...
+
+Request for memory resize from        148 to        207 MB
+Resize ok with new memory.
+
+   Start running section :  PRPDDM ...
+
+   Time spent in section :  PRPDDM;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  ASMBDK ...
+
+   Time spent in section :  ASMBDK;  CPU=       0.84;  WALL=      0.84
+
+
+Request for memory resize from        207 to        211 MB
+Resize ok with new memory.
+
+   Start running section :  PRPSL4 ...
+
+   Time spent in section :  PRPSL4;  CPU=       3.48;  WALL=      3.50
+
+
+   Start running section :  PRPMI1 ...
+
+   Time spent in section :  PRPMI1;  CPU=       0.03;  WALL=      0.03
+
+
+   Start running section :  PRPFAT ...
+
+   Time spent in section :  PRPFAT;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPEST ...
+
+Request for memory resize from        211 to        429 MB
+Resize ok with new memory.
+
+   Time spent in section :  PRPEST;  CPU=       0.08;  WALL=      0.08
+
+
+   Start running section :  PRPMI2 ...
+
+   Time spent in section :  PRPMI2;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPMMO ...
+
+   Time spent in section :  PRPMMO;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPMI3 ...
+
+   Time spent in section :  PRPMI3;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPGPS ...
+
+   Time spent in section :  PRPGPS;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPDSK ...
+
+   Time spent in section :  PRPDSK;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  PRPSUM ...
+
+   Time spent in section :  PRPSUM;  CPU=       0.02;  WALL=      0.02
+
+
+   Start running section :  PRPMI4 ...
+
+   Time spent in section :  PRPMI4;  CPU=       0.00;  WALL=      0.00
+
+
+TIME SPENT IN MODULE :  PREPRO;  CPU=       5.83;  WALL=     17.67
+
+
+ITERATION   0
+
+START RUNNING MODULE : CHECKEL ...
+
+TIME SPENT IN MODULE : CHECKEL;  CPU=       0.27;  WALL=      0.26
+
+
+START RUNNING MODULE :  SOLVER ...
+
+   Start running section :  PRASMB ...
+
+   Time spent in section :  PRASMB;  CPU=       0.02;  WALL=      0.02
+
+
+   Start running section :  SPASMB ...
+
+   Time spent in section :  SPASMB;  CPU=       1.25;  WALL=      2.69
+
+
+   Solving subcase          1
+
+   Solving subcase          1
+
+   Solving subcase          1
+
+   Start running section :  PREFCT ...
+
+   Time spent in section :  PREFCT;  CPU=       0.03;  WALL=      0.16
+
+
+   Start running section :  INPTVM ...
+
+   Time spent in section :  INPTVM;  CPU=       0.61;  WALL=      0.62
+
+
+   Start running section :  FCTMTX ...
+
+   Time spent in section :  FCTMTX;  CPU=      17.53;  WALL=     50.26
+
+
+   Start running section :  SOLRHS ...
+
+   Time spent in section :  SOLRHS;  CPU=       1.03;  WALL=     20.56
+
+
+   Start running section :  STRENR ...
+
+   Time spent in section :  STRENR;  CPU=       0.30;  WALL=      4.85
+
+
+   Start running section :  KINENR ...
+
+   Time spent in section :  KINENR;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  OBJFUN ...
+
+   Time spent in section :  OBJFUN;  CPU=       0.00;  WALL=      0.01
+
+
+   Start running section :  RESFRC ...
+
+   Time spent in section :  RESFRC;  CPU=       0.20;  WALL=      0.34
+
+
+TIME SPENT IN MODULE :  SOLVER;  CPU=      21.04;  WALL=     80.28
+
+
+START RUNNING MODULE :  STRESS ...
+
+   Start running section : GPSSTIC ...
+
+   Time spent in section : GPSSTIC;  CPU=       0.90;  WALL=      4.06
+
+
+   Start running section : GPSSEIG ...
+
+   Time spent in section : GPSSEIG;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :GPSSDFRF ...
+
+   Time spent in section :GPSSDFRF;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section : GPSMFRF ...
+
+   Time spent in section : GPSMFRF;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section : GPSSCMS ...
+
+   Time spent in section : GPSSCMS;  CPU=       0.00;  WALL=      0.00
+
+
+   Start running section :  GPSDSH ...
+
+   Time spent in section :  GPSDSH;  CPU=       0.00;  WALL=      0.03
+
+
+   Start running section :    GPSD ...
+
+   Time spent in section :    GPSD;  CPU=       0.00;  WALL=      0.00
+
+
+TIME SPENT IN MODULE :  STRESS;  CPU=       1.08;  WALL=      4.32
+
+
+START RUNNING MODULE :CONVERGE ...
+
+TIME SPENT IN MODULE :CONVERGE;  CPU=       0.00;  WALL=      0.00
+
+
+START RUNNING MODULE :   PRINT ...
+
+TIME SPENT IN MODULE :   PRINT;  CPU=       0.00;  WALL=      0.03
+
+
+START RUNNING MODULE : RESULTS ...
+
+   Start running section :     H3D ...
+
+   Time spent in section :     H3D;  CPU=       3.34;  WALL=      4.09
+
+
+   Start running section :     PCH ...
+
+   Time spent in section :     PCH;  CPU=       0.08;  WALL=      1.00
+
+
+   Start running section :    MISC ...
+
+   Time spent in section :    MISC;  CPU=       0.03;  WALL=      0.09
+
+  
+ ANALYSIS COMPLETED.
+  
+
+TIME SPENT IN MODULE : RESULTS;  CPU=       3.45;  WALL=      5.50
+
+
+START RUNNING MODULE :FINISHUP ...
+
+TIME SPENT IN MODULE :FINISHUP;  CPU=       0.02;  WALL=      0.24
+
+ Detailed disk usage: 
+	High usage overall   : 1751.7 MiB,
+	Solver scratch       : 1536.0 MiB,
+	Internal database    :  302.4 MiB,
+	Out-of-core assembly :    0.0 MiB,
+	Temporary files      :   15.9 MiB.
+
+SOLUTION COMPLETED, THE FOLLOWING IS CPU/WALL CLOCK SUMMARY (IN SECONDS):
+
+TOTAL TIME SPENT IN MODULE :READ    ;  CPU=       1.50;  WALL=      1.51
+TOTAL TIME SPENT IN MODULE :PREPR1  ;  CPU=       0.14;  WALL=      0.14
+TOTAL TIME SPENT IN MODULE :DESIGN  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPDDM  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :ASMBDK  ;  CPU=       0.84;  WALL=      0.84
+   Total time spent in section :PRPSL4  ;  CPU=       3.48;  WALL=      3.50
+   Total time spent in section :PRPMI1  ;  CPU=       0.03;  WALL=      0.03
+   Total time spent in section :PRPFAT  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPEST  ;  CPU=       0.08;  WALL=      0.08
+   Total time spent in section :PRPMI2  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPMMO  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPMI3  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPGPS  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPDSK  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :PRPSUM  ;  CPU=       0.02;  WALL=      0.02
+   Total time spent in section :PRPMI4  ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :PREPRO  ;  CPU=       5.83;  WALL=     17.67
+TOTAL TIME SPENT IN MODULE :CHECKEL ;  CPU=       0.27;  WALL=      0.26
+   Total time spent in section :PRASMB  ;  CPU=       0.02;  WALL=      0.02
+   Total time spent in section :SPASMB  ;  CPU=       1.25;  WALL=      2.69
+   Total time spent in section :PREFCT  ;  CPU=       0.03;  WALL=      0.16
+   Total time spent in section :INPTVM  ;  CPU=       0.61;  WALL=      0.62
+   Total time spent in section :FCTMTX  ;  CPU=      17.53;  WALL=     50.26
+   Total time spent in section :SOLRHS  ;  CPU=       1.03;  WALL=     20.56
+   Total time spent in section :STRENR  ;  CPU=       0.30;  WALL=      4.85
+   Total time spent in section :KINENR  ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :OBJFUN  ;  CPU=       0.00;  WALL=      0.01
+   Total time spent in section :RESFRC  ;  CPU=       0.20;  WALL=      0.34
+TOTAL TIME SPENT IN MODULE :SOLVER  ;  CPU=      21.04;  WALL=     80.28
+   Total time spent in section :GPSSTIC ;  CPU=       0.90;  WALL=      4.06
+   Total time spent in section :GPSSEIG ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :GPSSDFRF;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :GPSMFRF ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :GPSSCMS ;  CPU=       0.00;  WALL=      0.00
+   Total time spent in section :GPSDSH  ;  CPU=       0.00;  WALL=      0.03
+   Total time spent in section :GPSD    ;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :STRESS  ;  CPU=       1.08;  WALL=      4.32
+TOTAL TIME SPENT IN MODULE :CONVERGE;  CPU=       0.00;  WALL=      0.00
+TOTAL TIME SPENT IN MODULE :PRINT   ;  CPU=       0.00;  WALL=      0.03
+   Total time spent in section :H3D     ;  CPU=       3.34;  WALL=      4.09
+   Total time spent in section :PCH     ;  CPU=       0.08;  WALL=      1.00
+   Total time spent in section :MISC    ;  CPU=       0.03;  WALL=      0.09
+TOTAL TIME SPENT IN MODULE :RESULTS ;  CPU=       3.45;  WALL=      5.50
+TOTAL TIME SPENT IN MODULE :FINISHUP;  CPU=       0.02;  WALL=      0.24
+
+CUMULATIVE RUN TIME:     CPU=       33.32;     WALL=      109.96
+
+
+TIME SPENT IN MODULE :   CLOSE;  CPU=       0.00;  WALL=      0.00
+

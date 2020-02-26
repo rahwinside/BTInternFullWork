@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>bolt_ui</class>
+ <widget class="QDialog" name="bolt_ui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>714</width>
+    <height>707</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Bolt Calculation UX</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>true</bool>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="1">
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Triangular</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Inputs</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="5" column="1">
+        <widget class="QLabel" name="pitchlabel">
+         <property name="text">
+          <string>Pitch:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2" colspan="7">
+        <widget class="QLineEdit" name="thicklineEdit"/>
+       </item>
+       <item row="20" column="2" colspan="7">
+        <widget class="QComboBox" name="nutCombo"/>
+       </item>
+       <item row="25" column="2" colspan="7">
+        <widget class="QLineEdit" name="renutlineEdit"/>
+       </item>
+       <item row="26" column="2" colspan="7">
+        <widget class="QLineEdit" name="rmnutlineEdit"/>
+       </item>
+       <item row="20" column="1">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Type of nut:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="1">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>Grade:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="25" column="1">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>Yield (Re):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="23" column="2" colspan="7">
+        <widget class="QComboBox" name="gradeNutCombo"/>
+       </item>
+       <item row="21" column="6">
+        <widget class="QLineEdit" name="tBlock"/>
+       </item>
+       <item row="26" column="1">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>Ultimate (Rw):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="28" column="6">
+        <widget class="QPushButton" name="resetInput">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Reset</string>
+         </property>
+        </widget>
+       </item>
+       <item row="24" column="1">
+        <widget class="QLabel" name="label_36">
+         <property name="text">
+          <string>Material:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1">
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>Length:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Number of clamped parts:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="27" column="1">
+        <widget class="QLabel" name="label_16">
+         <property name="text">
+          <string>Rec:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="8">
+        <widget class="QLineEdit" name="uBlock"/>
+       </item>
+       <item row="27" column="2" colspan="7">
+        <widget class="QLineEdit" name="recnutlineEdit"/>
+       </item>
+       <item row="11" column="1">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Grade:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="1">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>Rec:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="1">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>Yield (Re):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="1">
+        <widget class="QLabel" name="label_32">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;r:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="1">
+        <widget class="QLabel" name="label_37">
+         <property name="text">
+          <string>Height:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="22" column="2" colspan="7">
+        <widget class="QLineEdit" name="nutHeight"/>
+       </item>
+       <item row="14" column="1">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>Ultimate (Rw):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="13" column="2" colspan="7">
+        <widget class="QLineEdit" name="relineedit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2" colspan="7">
+        <widget class="QLineEdit" name="lengthText"/>
+       </item>
+       <item row="0" column="2" colspan="7">
+        <widget class="QLineEdit" name="nClampedPartsText">
+         <property name="placeholderText">
+          <string>Enter values between 2-10</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Type:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="2" colspan="7">
+        <widget class="QComboBox" name="gradeCombo"/>
+       </item>
+       <item row="21" column="3">
+        <widget class="QLabel" name="label_33">
+         <property name="text">
+          <string>s:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="28" column="8">
+        <widget class="QPushButton" name="saveInput">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Save</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="5">
+        <widget class="QLabel" name="label_34">
+         <property name="text">
+          <string>t:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="2">
+        <widget class="QLineEdit" name="rBlock"/>
+       </item>
+       <item row="21" column="7">
+        <widget class="QLabel" name="label_35">
+         <property name="text">
+          <string>u:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="21" column="4">
+        <widget class="QLineEdit" name="sBlock"/>
+       </item>
+       <item row="3" column="2" colspan="7">
+        <widget class="QComboBox" name="sizeCombo"/>
+       </item>
+       <item row="14" column="2" colspan="7">
+        <widget class="QLineEdit" name="rmlineedit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="2" colspan="7">
+        <widget class="QLineEdit" name="reclineedit">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="2" colspan="7">
+        <widget class="QComboBox" name="partCombo"/>
+       </item>
+       <item row="24" column="2" colspan="7">
+        <widget class="QLineEdit" name="matBlock"/>
+       </item>
+       <item row="2" column="2" colspan="7">
+        <widget class="QComboBox" name="typeCombo"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Size:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Bolt&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="19" column="1">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Type of part:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="18" column="0" colspan="2">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Threaded Part&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2" colspan="7">
+        <widget class="QLineEdit" name="pitchlineEdit"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="thicklabel">
+         <property name="text">
+          <string>Thickness:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="sizeLabel">
+         <property name="text">
+          <string>Size:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2" colspan="7">
+        <widget class="QLineEdit" name="sizelineEdit"/>
+       </item>
+       <item row="7" column="3">
+        <widget class="QLabel" name="label_42">
+         <property name="text">
+          <string>s:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="4">
+        <widget class="QLineEdit" name="sBlock_2"/>
+       </item>
+       <item row="7" column="1">
+        <widget class="QLabel" name="label_41">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;r:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLineEdit" name="rBlock_2"/>
+       </item>
+       <item row="7" column="5">
+        <widget class="QLabel" name="label_43">
+         <property name="text">
+          <string>t:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="6">
+        <widget class="QLineEdit" name="tBlock_2"/>
+       </item>
+       <item row="7" column="7">
+        <widget class="QLabel" name="label_44">
+         <property name="text">
+          <string>u:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="8">
+        <widget class="QLineEdit" name="uBlock_2"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Clamped Parts</string>
+      </attribute>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>500</y>
+         <width>158</width>
+         <height>25</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="resetClamp">
+          <property name="text">
+           <string>Reset</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="saveClamp">
+          <property name="text">
+           <string>Save</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>External Loading</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="7" column="1">
+        <widget class="QLineEdit" name="ublineEdit">
+         <property name="placeholderText">
+          <string>µb</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QLabel" name="label_26">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;±&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="3">
+        <widget class="QLineEdit" name="delublineEdit">
+         <property name="placeholderText">
+          <string>Δµb</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="0">
+        <widget class="QLabel" name="label_27">
+         <property name="text">
+          <string>Equivalent stress tightening ratio (γE):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="1" colspan="2">
+        <widget class="QLineEdit" name="yelineEdit"/>
+       </item>
+       <item row="11" column="3">
+        <widget class="QPushButton" name="calculateEL">
+         <property name="text">
+          <string>Calculate</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_17">
+         <property name="text">
+          <string>Axial Force (Fa):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1" colspan="2">
+        <widget class="QLineEdit" name="axialForcelineEdit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_18">
+         <property name="text">
+          <string>Shear Force (Ft):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" colspan="2">
+        <widget class="QLineEdit" name="shearForcelineEdit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_19">
+         <property name="text">
+          <string>Load Introduction Factor(β):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1" colspan="2">
+        <widget class="QLineEdit" name="betalineEdit"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_20">
+         <property name="text">
+          <string>Co-efficient of friction (sliding faces) (µmin):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1" colspan="2">
+        <widget class="QLineEdit" name="uminlineEdit"/>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_28">
+         <property name="text">
+          <string>N</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_29">
+         <property name="text">
+          <string>N</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="3">
+        <widget class="QLabel" name="label_30">
+         <property name="text">
+          <string>Nm</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="3">
+        <widget class="QLabel" name="label_31">
+         <property name="text">
+          <string>% Re</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_21">
+         <property name="text">
+          <string>Applied torque (T):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1" colspan="2">
+        <widget class="QLineEdit" name="torquelineEdit"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_22">
+         <property name="text">
+          <string>Tightening torque accuracy (ΔT/T):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1" colspan="2">
+        <widget class="QLineEdit" name="tightAccuracylineEdit"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_23">
+         <property name="text">
+          <string>Thread coefficient of friction (µt ± Δµt):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="utlineEdit">
+         <property name="placeholderText">
+          <string>µt</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLabel" name="label_24">
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;±&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item row="11" column="1">
+        <widget class="QPushButton" name="resetEL">
+         <property name="text">
+          <string>Reset</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLabel" name="label_38">
+         <property name="text">
+          <string>%</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLineEdit" name="delutlineEdit">
+         <property name="placeholderText">
+          <string>Δµt</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="label_25">
+         <property name="text">
+          <string>Friction co-efficient under the driven element (µb ± Δµb):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="1">
+        <widget class="QLineEdit" name="thetalineEdit">
+         <property name="placeholderText">
+          <string>for oblong hole calculation only</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <widget class="QLabel" name="label_39">
+         <property name="text">
+          <string>Cone Angle (Ɵ):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="3">
+        <widget class="QLabel" name="label_40">
+         <property name="text">
+          <string>degrees</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>Results</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="exportPDF">
+         <property name="text">
+          <string>Export to PDF</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>nClampedPartsText</tabstop>
+  <tabstop>typeCombo</tabstop>
+  <tabstop>sizeCombo</tabstop>
+  <tabstop>sizelineEdit</tabstop>
+  <tabstop>pitchlineEdit</tabstop>
+  <tabstop>thicklineEdit</tabstop>
+  <tabstop>rBlock_2</tabstop>
+  <tabstop>sBlock_2</tabstop>
+  <tabstop>tBlock_2</tabstop>
+  <tabstop>uBlock_2</tabstop>
+  <tabstop>lengthText</tabstop>
+  <tabstop>gradeCombo</tabstop>
+  <tabstop>relineedit</tabstop>
+  <tabstop>rmlineedit</tabstop>
+  <tabstop>reclineedit</tabstop>
+  <tabstop>partCombo</tabstop>
+  <tabstop>nutCombo</tabstop>
+  <tabstop>rBlock</tabstop>
+  <tabstop>sBlock</tabstop>
+  <tabstop>tBlock</tabstop>
+  <tabstop>uBlock</tabstop>
+  <tabstop>nutHeight</tabstop>
+  <tabstop>gradeNutCombo</tabstop>
+  <tabstop>matBlock</tabstop>
+  <tabstop>renutlineEdit</tabstop>
+  <tabstop>rmnutlineEdit</tabstop>
+  <tabstop>recnutlineEdit</tabstop>
+  <tabstop>saveInput</tabstop>
+  <tabstop>resetInput</tabstop>
+  <tabstop>saveClamp</tabstop>
+  <tabstop>resetClamp</tabstop>
+  <tabstop>axialForcelineEdit</tabstop>
+  <tabstop>shearForcelineEdit</tabstop>
+  <tabstop>betalineEdit</tabstop>
+  <tabstop>uminlineEdit</tabstop>
+  <tabstop>torquelineEdit</tabstop>
+  <tabstop>tightAccuracylineEdit</tabstop>
+  <tabstop>utlineEdit</tabstop>
+  <tabstop>delutlineEdit</tabstop>
+  <tabstop>ublineEdit</tabstop>
+  <tabstop>delublineEdit</tabstop>
+  <tabstop>yelineEdit</tabstop>
+  <tabstop>thetalineEdit</tabstop>
+  <tabstop>calculateEL</tabstop>
+  <tabstop>resetEL</tabstop>
+  <tabstop>exportPDF</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

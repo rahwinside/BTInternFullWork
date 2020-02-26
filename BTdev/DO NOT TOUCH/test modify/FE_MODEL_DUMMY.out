@@ -1,0 +1,386 @@
+ ************************************************************************
+ **                                                                    **
+ **                                                                    **
+ **                         OptiStruct 2017.2                          **
+ **                                                                    **
+ **             Advanced Engineering Analysis, Design and              **
+ **        Optimization Software from Altair Engineering, Inc.         **
+ **                                                                    **
+ **                                                                    **
+ **            Windows 7  SP1 (Build 7601)  BTIS1000038793             **
+ **         8 CPU:  Intel(R) Core(TM) i7-3940XM CPU @ 3.00GHz          **
+ **                    3934 MB RAM,  16265 MB swap                     **
+ **                                                                    **
+ ** Build tag: 0872785_9433172_Ce64RBW8UH14M:131848-2  4000000014000   **
+ ************************************************************************
+ **  COPYRIGHT (C) 1996-2017                 Altair Engineering, Inc.  **
+ ** All Rights Reserved.  Copyright notice does not imply publication. **
+ **         Contains trade secrets of Altair Engineering, Inc.         **
+ ** Decompilation or disassembly of this software strictly prohibited. **
+ ************************************************************************
+ 
+  
+ *** OptiStruct defaults set from:
+   install config file: C:\Users\jisai\Documents\/hwsolvers/optistruct.cfg.
+  
+  
+ NOTE # 9199
+ MSGLMT=STRICT is active, all messages will be printed.
+ You can suppress some less important warning messages by use of
+  MSGLMT=BRIEF or UNREF (in config file or in the input data).
+  
+ 3 PARAM(s) were set:
+    AUTOSPC,YES
+    CHECKEL,NO
+    EFFMAS,YES
+  
+ 
+ *** See next message about line 2008929 from file:
+     C:/Users/jisai/Desktop/test modify/FE_MODEL_DUMMY.fem
+  "GRAV          75       09810.0  0.0     0.0     0.0"
+  
+ *** WARNING # 1075
+ GRAV data has zero gravity.
+  
+  
+ *** WARNING 1931:      SPC SID=  13 is not referenced by Case Control
+	(4 instances).
+ *** WARNING 1931:      SPC SID=  36 is not referenced by Case Control
+	(4 instances).
+ *** WARNING 1931:      SPC SID=  13 is not referenced by Case Control
+	(4 instances).
+ *** WARNING 1931:      SPC SID=  35 is not referenced by Case Control
+	(913 instances).
+ *** WARNING 1931:      SPC SID=  36 is not referenced by Case Control
+	(7 instances).
+ *** WARNING 1931:      SPC SID=  37 is not referenced by Case Control
+	(3 instances).
+ *** WARNING 1931: LOAD/LOADADD SID=  40 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  41 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  42 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  43 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  45 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  47 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  48 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  49 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  50 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  51 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  52 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  53 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  54 is not referenced by Case Control.
+ *** WARNING 1931: LOAD/LOADADD SID=  55 is not referenced by Case Control.
+  
+ *** More of WARNING messages # 1931 were suppressed...
+  
+ *** WARNING 1935: The density of material 2 is zero.
+ *** WARNING 1935: The density of material 10 is zero.
+ *** WARNING 1935: The density of material 11 is zero.
+  
+ *** INFORMATION # 4739
+ The structure of surface-to-surface contact element is quite different than
+ that of node-to-surface contact element. No internal CGAP/CGAPG elements are
+ created for surface-to-surface contact.
+  
+ *** INFORMATION # 815
+ The total number of rigid elements, whose rotational dependent d.o.f.
+ are removed because there is no need to constrain those d.o.f., is 25.
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+  
+ *** WARNING: The amount of allocated memory exceeds available RAM - this
+may cause significant slowing down of solution progress due to the swapping
+out memory to the swap file. It is recommended to use out-of-core
+solution to reduce memory requirements.
+  
+ 
+
+************************************************************************
+
+OPTIMIZATION FILE AND PARAMETER INFORMATION :
+---------------------------------------------
+
+  FEM model file               : 
+     C:/Users/jisai/Desktop/test modify/FE_MODEL_DUMMY.fem
+  Output files prefix          : 
+     C:/Users/jisai/Desktop/test modify/FE_MODEL_DUMMY
+  Model read from files:
+     C:/Users/jisai/Desktop/test modify/FE_MODEL_DUMMY.fem
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+FINITE ELEMENT MODEL DATA INFORMATION :
+---------------------------------------
+
+  Total # of Grids (Structural)        :   1353847
+  Total # of Elements Excluding Contact:    215307
+  Total # of S2S Contact Elements      :       702 (no internally created CGAPG)
+  Total # of Rigid Elements            :        97
+  Total # of Rigid Element Constraints :     12620
+  Total # of Local Coordinate Systems  :         6
+  Total # of Degrees of Freedom        :   4071392
+  (Structural)
+  Total # of Non-zero Stiffness Terms  : 263145058
+
+ 
+  Element Type Information
+  ------------------------
+
+   CBAR     Elements   :        4
+   CBEAM    Elements   :        8
+   CELAS1/3 Elements   :        8
+   CHEXA    Elements   :   210805
+   CPENTA   Elements   :     4001
+   CONM2    Elements   :        7     
+   CROD     Elements   :      174     
+   CQUAD8   Elements   :      300     
+
+  Load and Boundary Information
+  -----------------------------
+
+   FORCE Sets        :        22
+   SPC   Sets        :         1
+
+  Material and Property Information
+  ---------------------------------
+
+   PBAR   Cards      :         1
+   PBEAM  Cards      :         1
+   PELAS  Cards      :         1
+   PSOLID Cards      :        77
+   PSHELL Cards      :         1
+   Amongst these, number of PSHELL with membrane only data =          1
+   PROD   Cards      :         2
+   MAT1   Cards      :         6
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+OPTIMIZATION PROBLEM PARAMETERS :
+---------------------------------
+
+ NO DESIGN MATERIAL OR DESIGN VARIABLES FOUND  : ANALYSIS ONLY
+
+   ------------------------
+   Static Subcase Summary :
+   ------------------------
+
+   ----------   --------  --------
+   Subcase ID    SPC ID   FORCE ID
+   ----------   --------  --------
+        1            2           38
+        2            2           39
+        8            2           44
+       10            2           46
+       16            2           30
+   ----------   --------  --------
+
+   Run Type                        :   Analysis Only
+   Run at location                 : C:/Users/jisai/Desktop/test modify/
+   Scratch file directory          : C:/Users/jisai/Desktop/test modify/
+                                     Free space:    51.657 GB
+   Number of CPU processors        :          1
+
+
+************************************************************************
+
+ 
+
+************************************************************************
+
+MEMORY ESTIMATION INFORMATION :
+-------------------------------
+
+ Solver Type is:  Sparse-Matrix Solver
+                  Direct Method
+ 
+ Current Memory (RAM)                                    :    6140 MB
+ Estimated Minimum Memory (RAM) for Out of Core Solution :    5489 MB
+ Recommended Memory (RAM) for Out of Core Solution       :    6140 MB
+ (Memory requirement is too high for In-Core Solution of  
+ 32bit Integer Solver. Please use PARAM,I64SLV,YES if     
+ In-Core is preferred and memory is sufficient.) 
+ 
+DISK SPACE ESTIMATION INFORMATION :
+-----------------------------------
+
+ Estimated Disk Space for Output Data Files              :    4101 MB
+ Estimated Scratch Disk Space for Out of Core Solution   :   45091 MB
+
+************************************************************************
+
+
+BEGINNING ANALYSIS SOLUTION ....
+
+
+************************************************************************
+
+ANALYSIS RESULTS :
+------------------
+
+  
+ITERATION   0
+  
+ List of Auto-SPC d.o.f.s for loadcase   1
+ Total number of Auto-SPC d.o.f.s = 12636
+  
+ 		------------------------------
+ 		  Grid No.         Component
+ 		------------------------------
+                      34720             4 5 6
+                      34721             4 5 6
+                      34722             4 5 6
+                      34723             4 5 6
+                      34724             4 5 6
+                      34725             4 5 6
+                      34726             4 5 6
+                      34727             4 5 6
+                      34728             4 5 6
+                      34729             4 5 6
+                      34730             4 5 6
+                      34731             4 5 6
+                      34732             4 5 6
+                      34733             4 5 6
+                      34734             4 5 6
+                      34735             4 5 6
+                      34736             4 5 6
+                      34737             4 5 6
+                      34738             4 5 6
+                      34739             4 5 6
+                      34740             4 5 6
+                      34741             4 5 6
+                      34742             4 5 6
+                      34743             4 5 6
+                      34744             4 5 6
+                      34745             4 5 6
+                      34746             4 5 6
+                      34747             4 5 6
+                      34748             4 5 6
+                      34749             4 5 6
+                      34750             4 5 6
+                      34751             4 5 6
+                      34752             4 5 6
+                      34753             4 5 6
+ 		------------------------------
+  
+	Because of PARAM, PRGPST, 100, Auto-SPC printing is limited to 100 dofs.
+  
+  
+ (Scratch disk space usage for starting iteration = 34781 MB)
+
+Subcase:       1
+--------------------------------------------------------------------------
+ Label     x-force    y-force    z-force   x-moment   y-moment   z-moment 
+--------------------------------------------------------------------------
+Sum-App.  0.000E+00  8.248E+04  5.320E+04  6.716E+07  6.070E+00  7.858E+00
+Sum-SPCF  1.976E-05 -8.248E+04 -5.320E+04 -6.365E+07 -2.235E+00  3.644E+03
+--------------------------------------------------------------------------
+
+Subcase:       2
+--------------------------------------------------------------------------
+ Label     x-force    y-force    z-force   x-moment   y-moment   z-moment 
+--------------------------------------------------------------------------
+Sum-App.  0.000E+00 -8.248E+04  5.346E+04 -6.714E+07 -1.384E+00 -7.858E+00
+Sum-SPCF -2.788E-04  8.248E+04 -5.346E+04  6.363E+07  3.465E+00 -9.649E+03
+--------------------------------------------------------------------------
+
+Subcase:       8
+--------------------------------------------------------------------------
+ Label     x-force    y-force    z-force   x-moment   y-moment   z-moment 
+--------------------------------------------------------------------------
+Sum-App.  2.000E+00  0.000E+00  0.000E+00  0.000E+00  3.072E+08  2.890E+01
+Sum-SPCF -1.997E+00 -4.963E-05  8.682E-03  9.177E+01 -3.072E+08 -2.729E+04
+--------------------------------------------------------------------------
+
+Subcase:      10
+--------------------------------------------------------------------------
+ Label     x-force    y-force    z-force   x-moment   y-moment   z-moment 
+--------------------------------------------------------------------------
+Sum-App.  0.000E+00  0.000E+00  4.327E+05  0.000E+00  0.000E+00  0.000E+00
+Sum-SPCF -1.012E-03  1.208E-05 -4.327E+05  3.381E+03  2.588E+01 -2.433E+04
+--------------------------------------------------------------------------
+
+Subcase:      16
+--------------------------------------------------------------------------
+ Label     x-force    y-force    z-force   x-moment   y-moment   z-moment 
+--------------------------------------------------------------------------
+Sum-App.  0.000E+00  0.000E+00  0.000E+00  0.000E+00  0.000E+00  8.460E+07
+Sum-SPCF -1.303E-02  8.671E-04  2.566E-05  3.589E+01 -5.430E-01 -8.324E+07
+--------------------------------------------------------------------------
+Notes: 1. All applied and SPC forces are transferred to
+          the origin of the basic coordinate system,
+          so that the applied and SPC loads can match.
+       2. If spring elements and/or MPCs exist in the model,
+          total applied loads may not match total SPC loads.
+       3. If axisymmetric elements are present in the model,
+          the total x-force and y-force and all the total
+          moments are set to zero, according to principles
+          of axisymmetric analysis.
+       4. If periodic boundary conditions exist in the model,
+          total applied loads may not match total SPC loads.
+(Running out-of-core solution)
+
+Volume                              = 8.19714E+008   Mass     = 9.72762E+000
+
+ Subcase   Compliance     Epsilon
+       1  1.848727E+06  3.107813E-08
+       2  1.853984E+06  2.213317E-08
+       8  4.411117E+06  1.169283E-07
+      10  1.573277E+07 -6.227523E-08
+      16  5.206361E+05 -4.239482E-08
+
+Note : Epsilon = Residual Strain Energy Ratio.
+
+
+************************************************************************
+  
+ ANALYSIS COMPLETED.
+  
+
+************************************************************************
+
+RESOURCE USAGE INFORMATION
+--------------------------
+
+ MAXIMUM MEMORY USED                                      6140 MB
+ MAXIMUM DISK SPACE USED                                 39393 MB
+
+************************************************************************
+
+
+************************************************************************
+
+COMPUTE TIME INFORMATION
+------------------------
+
+ EXECUTION STARTED                         Thu Mar 08 10:04:28 2018    
+ EXECUTION COMPLETED                       Thu Mar 08 12:11:10 2018    
+ ELAPSED TIME                                         02:06:42
+ CPU TIME                                             00:31:38
+
+************************************************************************
+
+  
+                        ***** END OF REPORT *****
+  
+ For Useful OptiStruct Tips and Tricks, go to the URL:
+ http://www.altairhyperworks.com/tips.aspx
+  
+************************************************************************
+ Following warning messages appeared too many times
+ and were suppressed:
+    1931
+ Total of 33 repeat message(s) were suppressed.
+ To see more messages use "MSGLMT" control card in the data or config file.
+  
+************************************************************************
